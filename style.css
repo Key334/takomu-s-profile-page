@@ -24,7 +24,9 @@ a {
   background-color: #ff9a9e;
   display: block;
   padding: 20px 0;
-  margin: 20px auto;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 p,ul{

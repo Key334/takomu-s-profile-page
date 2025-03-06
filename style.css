@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  background-color: #bbf1ef;
+  background-color: #ffc2fd;
   font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
 }
 
@@ -21,7 +21,7 @@ img {
 }
 
 a {
-  background-color: #ff9a9e;
+  background-color: #ab53ff;
   display: block;
   padding: 20px 0;
   border-radius: 4px;

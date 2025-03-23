@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  background-color: #bbf1ef;
+  background-color: #3b43b5;
   font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
 }
 
@@ -21,11 +21,11 @@ img {
 }
 
 a {
-  background-color: #ff9a9e;
+  background-color: #fffda8;
   display: block;
   padding: 20px 0;
   border-radius: 4px;
-  color: #ffffff;
+  color: #2a459d;
   font-weight: bold;
 }
 

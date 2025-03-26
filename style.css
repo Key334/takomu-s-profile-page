@@ -4,11 +4,6 @@
   body {
     font-size: 14px;
   }
-  img {
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 ul li a {
@@ -49,9 +44,9 @@ h1 {
 }
   
 img {
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 a {

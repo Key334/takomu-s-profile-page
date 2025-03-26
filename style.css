@@ -6,27 +6,25 @@
   }
 }
 
-nav ul li a {
+ul li a {
   background-color: #fffda8 !important;
-}
-
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-nav ul li {
-  padding: 10px;
-  margin: 5px;
-  list-style: none; /* リストのマーカーを非表示にする */
-}
-
-nav ul li a {
   text-decoration: none; /* リンクの下線を削除 */
   color: #333; /* リンクの文字色を設定 */
   display: block; /* リンク全体をクリック可能にする */
+}
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  margin: 5px;
+  list-style: none; /* リストのマーカーを非表示にする */
 }
 
 body {

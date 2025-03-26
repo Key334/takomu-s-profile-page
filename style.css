@@ -23,7 +23,7 @@ ul {
 ul li {
   padding: 10px;
   margin: 5px;
-  /* list-style: none; /* リストのマーカーを非表示にする */
+  list-style: none; /* リストのマーカーを非表示にする */
 }
 
 body {

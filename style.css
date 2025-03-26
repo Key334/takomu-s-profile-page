@@ -9,14 +9,20 @@
 nav ul {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-  }
+nav ul li {
+  padding: 10px;
+  margin: 5px;
+  list-style: none; /* リストのマーカーを非表示にする */
 }
 
+nav ul li a {
+  text-decoration: none; /* リンクの下線を削除 */
+  color: #333; /* リンクの文字色を設定 */
+  display: block; /* リンク全体をクリック可能にする */
+}
 
 body {
   background-color: #3b43b5;

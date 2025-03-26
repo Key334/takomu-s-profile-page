@@ -21,8 +21,6 @@ ul {
 }
 
 ul li {
-  padding: 10px 0;
-  margin: 5px auto;
   list-style: none; /* リストのマーカーを非表示にする */
 }
 

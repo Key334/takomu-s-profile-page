@@ -4,6 +4,11 @@
   body {
     font-size: 14px;
   }
+  img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+　}
 }
 
 ul li a {
@@ -40,11 +45,11 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
 }
-  
+
 img {
     border-radius: 50%;
-    max-width: 100%;
-    height: auto;
+    width: 600px;
+    height: 600px;
 }
 
 a {

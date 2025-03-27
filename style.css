@@ -15,7 +15,9 @@ ul li a {
   background-color: #fffda8 !important;
   text-decoration: none; /* リンクの下線を削除 */
   color: #333; /* リンクの文字色を設定 */
-  display: block; /* リンク全体をクリック可能にする */
+  display: inline-block; /* リンク全体をクリック可能にする */
+  text-align: center;
+  color: #333;
 }
 
 
@@ -57,21 +59,16 @@ img {
 }
 
 a {
-  background-color: #fffda8;
-  display: block;
   padding: 20px 0;
   border-radius: 4px;
-  color: #2a459d;
   font-weight: bold;
   width: 300px;
   margin: 20px auto;
 }
 
 p,ul{
-  color: #333;
-  text-align: center;
   margin-bottom: 20px;
-  margin: 20px auto;
+  margin: 20px auto
 }
 
 li {

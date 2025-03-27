@@ -75,33 +75,33 @@ li {
 　}
 
 　ul li a {
-  background-color: #fffda8 !important;
-  text-decoration: none; /* リンクの下線を削除 */
-  color: #333; /* リンクの文字色を設定 */
-  display: inline-block; /* リンク全体をクリック可能にする */
-  text-align: center;
-  color: #333;
+  　background-color: #fffda8 !important;
+  　text-decoration: none; /* リンクの下線を削除 */
+  　color: #333; /* リンクの文字色を設定 */
+  　display: inline-block; /* リンク全体をクリック可能にする */
+  　text-align: center;
+  　color: #333;
 }
 
 
 　ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  　display: flex;
+  　flex-wrap: wrap;
+  　flex-direction: column;
 }
 
 　ul li {
-  list-style: none; /* リストのマーカーを非表示にする */
+  　list-style: none; /* リストのマーカーを非表示にする */
 }
 
 　body {
-　font-size: 14px;
-  background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
-  background-size: cover;          /* 全体にフィットさせる */
-  background-position: center;     /* 中央に配置 */
-  background-repeat: no-repeat;    /* 繰り返さない */
-  background-attachment: fixed;    /* スクロールしても背景は固定 */
-  font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
+　　font-size: 14px;
+  　background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
+  　background-size: cover;          /* 全体にフィットさせる */
+  　background-position: center;     /* 中央に配置 */
+ 　 background-repeat: no-repeat;    /* 繰り返さない */
+ 　 background-attachment: fixed;    /* スクロールしても背景は固定 */
+ 　 font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
 }
 
 h1 {

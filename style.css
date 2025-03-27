@@ -1,16 +1,5 @@
 @charset "UTF-8";
 
-@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-  img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-　}
-}
-
 ul li a {
   background-color: #fffda8 !important;
   text-decoration: none; /* リンクの下線を削除 */
@@ -76,3 +65,143 @@ li {
   margin-bottom: 20px;
   margin: 20px auto;
 }
+
+
+@media (max-width: 600px) {
+  img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+　}
+
+　ul li a {
+  background-color: #fffda8 !important;
+  text-decoration: none; /* リンクの下線を削除 */
+  color: #333; /* リンクの文字色を設定 */
+  display: inline-block; /* リンク全体をクリック可能にする */
+  text-align: center;
+  color: #333;
+}
+
+
+　ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+　ul li {
+  list-style: none; /* リストのマーカーを非表示にする */
+}
+
+　body {
+　font-size: 14px;
+  background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
+  background-size: cover;          /* 全体にフィットさせる */
+  background-position: center;     /* 中央に配置 */
+  background-repeat: no-repeat;    /* 繰り返さない */
+  background-attachment: fixed;    /* スクロールしても背景は固定 */
+  font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
+}
+
+h1 {
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 20px;
+  padding: 6px  0;
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  padding: 20px 0;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 300px;
+  margin: 20px auto;
+}
+
+p,ul{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+li {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 20px auto;
+}
+
+}
+
+@media screen and (min-width: 769px) {
+  ul li a {
+  background-color: #fffda8 !important;
+  text-decoration: none; /* リンクの下線を削除 */
+  color: #333; /* リンクの文字色を設定 */
+  display: inline-block; /* リンク全体をクリック可能にする */
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+ul li {
+  list-style: none; /* リストのマーカーを非表示にする */
+}
+
+body {
+  background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
+  background-size: cover;          /* 全体にフィットさせる */
+  background-position: center;     /* 中央に配置 */
+  background-repeat: no-repeat;    /* 繰り返さない */
+  background-attachment: fixed;    /* スクロールしても背景は固定 */
+  font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
+}
+
+h1 {
+  font-size: 18px;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 20px;
+  padding: 6px  0;
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+a {
+  padding: 20px 0;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 300px;
+  margin: 20px auto;
+}
+
+p,ul{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+li {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 20px auto;
+}
+
+    
+  }
+

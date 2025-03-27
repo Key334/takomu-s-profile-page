@@ -30,7 +30,11 @@ ul li {
 }
 
 body {
-  background-color: #3b43b5;
+  background-image: url('images/background.jpg'); /* ← 画像のパスに変更してください */
+  background-size: cover;          /* 全体にフィットさせる */
+  background-position: center;     /* 中央に配置 */
+  background-repeat: no-repeat;    /* 繰り返さない */
+  background-attachment: fixed;    /* スクロールしても背景は固定 */
   font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
 }
 

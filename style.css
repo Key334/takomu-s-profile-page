@@ -67,8 +67,8 @@ a {
 }
 
 p,ul{
+  text-aline: center;
   margin-bottom: 20px;
-  margin: 20px auto
 }
 
 li {

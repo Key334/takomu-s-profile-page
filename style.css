@@ -11,7 +11,7 @@ body {
 
 .profile-container {
   text-align: center;
-  width: 300px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -22,9 +22,6 @@ body {
 
 /* スマホ用 */
 .mobile-only {
-  display: block;
-  width: 300px;
-  height: 300px;
   border-radius: 10px;
   margin: 1em auto;
 }

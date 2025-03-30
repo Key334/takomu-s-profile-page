@@ -260,43 +260,6 @@ footer {
   transition: color 0.3s;
 }
 
-/* PC（769px以上）では画像を右側に表示 */
-@media screen and (min-width: 769px) {
-  .about-section {
-    flex-direction: row;
-  }
-
-  .about-image {
-    display: block;
-    flex: 1;
-    margin-left: 30px;
-    text-align: right;
-  }
-
-  /* .about-text内の画像は非表示にする（右側に表示するため） */
-  .about-text .about-image {
-    display: none;
-  }
-}
-
-/* スマホでは .about-text 内の画像を表示する */
-@media screen and (max-width: 768px) {
-  .about-section {
-    flex-direction: column;
-  }
-
-  .about-text {
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-image {
-    display: block;
-    text-align: center;
-    margin: 20px 0;
-  }
-}
-
 .sns-icons a:hover {
   color: #1da1f2; /* Twitterブルーなど、変えたい色に */
 }

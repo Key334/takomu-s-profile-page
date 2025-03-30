@@ -24,15 +24,13 @@ body {
 /* スマホ用 */
 .mobile-only {
   display: block;
-}
-.desktop-only {
-  display: none;
-}
-.profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin: 1em 0;
+}
+.desktop-only {
+  display: none;
 }
 
 /* PC用（768px以上で切り替え） */

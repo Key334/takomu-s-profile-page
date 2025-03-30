@@ -260,6 +260,23 @@ footer {
   transition: color 0.3s;
 }
 
+/* スマホ表示時：画像はh2の下、pの上に表示 */
+@media screen and (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-image {
+    display: block;
+  }
+}
+
 .sns-icons a:hover {
   color: #1da1f2; /* Twitterブルーなど、変えたい色に */
 }

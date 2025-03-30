@@ -16,13 +16,13 @@ body {
 .text-block {
   display: block;
   padding: 20px 0;
+  width: 300px;
+  margin: 0 auto;
 }
 
 p {
   background-color: rgba(255, 255, 255, 0.8); /* 白＋少し透ける */
   border-radius: 10px;
-  width: 300px;
-  margin: 0 auto;
 }
 
 /* スマホ用 */

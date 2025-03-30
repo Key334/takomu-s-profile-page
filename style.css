@@ -16,6 +16,9 @@ body {
 }
 
 .text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   flex: 1;
   min-width: 300px;
   padding: 20px;
@@ -39,12 +42,13 @@ body {
 @media (min-width: 768px) {
   .profile-container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
     text-align: left;
   }
 
   .text-block {
-    flex: 1;
+    align-items: flex-start;
   }
 
   .mobile-only {

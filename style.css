@@ -25,7 +25,7 @@ p {
   display: block;
   width: 100px;
   height: 100px;
-  border-radius: 5%;
+  border-radius: 10px;
   margin: 1em auto;
 }
 .desktop-only {
@@ -53,7 +53,7 @@ p {
     display: block;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10px;
     margin-left: 2em;
   }
 }

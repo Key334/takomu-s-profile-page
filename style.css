@@ -1,11 +1,11 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 
 ul li a {
   background-color: #fffda8 !important;
-  text-decoration: none; /* リンクの下線を削除 */
-  color: #333; /* リンクの文字色を設定 */
-  display: inline-block; /* リンク全体をクリック可能にする */
-  text-align: center;
+  text-decoration: none; */ /* リンクの下線を削除 */
+ /* color: #333; /* リンクの文字色を設定 */
+ /* display: inline-block; /* リンク全体をクリック可能にする */
+ /* text-align: center;
   color: #333;
 }
 
@@ -20,13 +20,13 @@ ul li {
   list-style: none; /* リストのマーカーを非表示にする */
 }
 
-body {
+/* body {
   background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
-  background-size: cover;          /* 全体にフィットさせる */
-  background-position: center;     /* 中央に配置 */
-  background-repeat: no-repeat;    /* 繰り返さない */
-  background-attachment: fixed;    /* スクロールしても背景は固定 */
-  font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
+ /* background-size: cover;          /* 全体にフィットさせる */
+ /* background-position: center;     /* 中央に配置 */
+ /*   background-repeat: no-repeat;    /* 繰り返さない */
+  /*background-attachment: fixed;    /* スクロールしても背景は固定 */
+  /*font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
 }
 
 h1 {
@@ -77,10 +77,10 @@ li {
   ul li a {
     background-color: #fffda8 !important;
     text-decoration: none; /* リンクの下線を削除 */
-    color: #333; /* リンクの文字色を設定 */
-    display: inline-block; /* リンク全体をクリック可能にする */
-    text-align: center;
-    color: #333;
+   /* color: #333; /* リンクの文字色を設定 */
+   /* display: inline-block; /* リンク全体をクリック可能にする */
+   /* text-align: center;
+   /* color: #333;
 }
 
 
@@ -92,16 +92,16 @@ li {
 
   ul li {
     list-style: none; /* リストのマーカーを非表示にする */
-}
+/*}
 
   body {
 　  font-size: 14px;
     background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */         
-    background-size: cover;          /* 全体にフィットさせる */
-    background-position: center;     /* 中央に配置 */
-    background-repeat: no-repeat;    /* 繰り返さない */
-    background-attachment: fixed;    /* スクロールしても背景は固定 */
-    font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
+  /*  background-size: cover;          /* 全体にフィットさせる */
+   /* background-position: center;     /* 中央に配置 */
+   /* background-repeat: no-repeat;    /* 繰り返さない */
+   /* background-attachment: fixed;    /* スクロールしても背景は固定 */
+   /* font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
 }
 
 h1 {
@@ -140,10 +140,10 @@ li {
   ul li a {
   background-color: #fffda8 !important;
   text-decoration: none; /* リンクの下線を削除 */
-  color: #333; /* リンクの文字色を設定 */
-  display: inline-block; /* リンク全体をクリック可能にする */
-  text-align: center;
-  color: #333;
+ /* color: #333; /* リンクの文字色を設定 */
+ /* display: inline-block; /* リンク全体をクリック可能にする */
+ /* text-align: center;
+ /* color: #333;
 }
 
 ul {
@@ -154,18 +154,18 @@ ul {
 
 ul li {
   list-style: none; /* リストのマーカーを非表示にする */
-}
+/*}
 
 body {
   background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
-  background-size: cover;          /* 全体にフィットさせる */
-  background-position: center;     /* 中央に配置 */
-  background-repeat: no-repeat;    /* 繰り返さない */
-  background-attachment: fixed;    /* スクロールしても背景は固定 */
-  font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
-}
+ /* background-size: cover;          /* 全体にフィットさせる */
+ /* background-position: center;     /* 中央に配置 */
+ /* background-repeat: no-repeat;    /* 繰り返さない */
+ /* background-attachment: fixed;    /* スクロールしても背景は固定 */
+ /* font-family: 'Verdana','Hiragino Sans','Meiryo','sans-serif'
+}*/
 
-h1 {
+/* h1 {
   font-size: 18px;
   color: #333;
   border: 3px solid #333;
@@ -203,5 +203,61 @@ li {
 }
 
     
-  }
+  } */
 
+body {
+  background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
+  background-size: cover;          /* 全体にフィットさせる */
+  background-position: center;     /* 中央に配置 */
+  background-repeat: no-repeat;    /* 繰り返さない */
+  background-attachment: fixed;    /* スクロールしても背景は固定 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: right;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.sns-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.sns-icons a:hover {
+  color: #1da1f2; /* Twitterブルーなど、変えたい色に */
+}

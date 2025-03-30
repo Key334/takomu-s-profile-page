@@ -15,10 +15,7 @@ body {
 
 .text-block {
   display: block;
-  align-items: center;
-  flex: 1;
-  min-width: 70px;
-  padding: 20px;
+  padding: 20px 0;
   background-color: rgba(255, 255, 255, 0.8); /* 白＋少し透ける */
   border-radius: 10px;
 }

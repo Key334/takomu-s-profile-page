@@ -22,6 +22,11 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* 白＋少し透ける */
+  border-radius: 10px;
 }
 
 /* スマホ用 */

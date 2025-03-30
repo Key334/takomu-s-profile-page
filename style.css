@@ -234,16 +234,50 @@ body {
   border-radius: 10px;
 }
 
-.about-image desktop{
-  flex: 1;
-  min-width: 300px;
-  text-align: right;
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.about-image mobile {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+/* スマホ用 */
+.mobile-only {
+  display: block;
+}
+.desktop-only {
+  display: none;
+}
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 1em 0;
+}
+
+/* PC用（768px以上で切り替え） */
+@media (min-width: 768px) {
+  .profile-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .text-block {
+    flex: 1;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 2em;
+  }
 }
 
 footer {
@@ -263,3 +297,5 @@ footer {
 .sns-icons a:hover {
   color: #1da1f2; /* Twitterブルーなど、変えたい色に */
 }
+
+

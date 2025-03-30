@@ -232,6 +232,13 @@ body {
   padding: 20px;
 }
 
+.text {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.8); /* 白＋少し透ける */
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .about-image {
   flex: 1;
   min-width: 300px;

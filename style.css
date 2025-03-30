@@ -234,13 +234,13 @@ body {
   border-radius: 10px;
 }
 
-.about-image {
+.about-image desktop{
   flex: 1;
   min-width: 300px;
   text-align: right;
 }
 
-.about-image img {
+.about-image mobile {
   max-width: 100%;
   height: auto;
   border-radius: 10px;

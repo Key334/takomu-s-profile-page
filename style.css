@@ -10,12 +10,6 @@ body {
 }
 
 .profile-container {
-  display: block;
-}
-
-.text-block {
-  display: block;
-  padding: 20px 0;
   width: 300px;
   margin: 0 auto;
 }

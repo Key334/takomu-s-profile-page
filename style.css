@@ -10,13 +10,11 @@ body {
 }
 
 .profile-container {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .text-block {
-  display: flex;
-  flex-direction: column;
+  display: block;
   align-items: center;
   flex: 1;
   min-width: 70px;

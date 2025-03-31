@@ -1,26 +1,113 @@
 <!DOCTYPE html>
 <html lang="ja">
+
+<style>
+  body {
+  background-image: url('images/e69afb76-cb4a-4362-ae2e-543e760704d4.png'); /* ← 画像のパスに変更してください */
+  background-size: cover;          /* 全体にフィットさせる */
+  background-position: center;     /* 中央に配置 */
+  background-repeat: no-repeat;    /* 繰り返さない */
+  background-attachment: fixed;    /* スクロールしても背景は固定 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.text-block {
+
+};
+}
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* 白＋少し透ける */
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden scroll;
+}
+
+/* スマホ用 */
+.mobile-only {
+  border-radius: 10px;
+  margin: 1em auto;
+}
+.desktop-only {
+  display: none;
+}
+
+/* PC用（768px以上で切り替え） */
+@media (min-width: 768px) {
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem; /* 間隔を少し空けると見やすくなります */
+  }
+
+  .text-block {
+    order: 1;
+    text-align: left;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    order: 2;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 2em;
+  }
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.sns-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.sns-icons a:hover {
+  color: #1da1f2; /* Twitterブルーなど、変えたい色に */
+}
+</style>
+
 <head>
   <meta name=”viewport” content=”width=device-width,initial-scale=1.0″> 
   <meta charset="UTF-8">
   <title>たこむの紹介</title>
-  <link rel="stylesheet" href="style.css">
+  <!--link rel="stylesheet" href="style.css">
   <!-- Font Awesome for SNS icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
   <div class="profile-container">
-    <p><img src="images/おしゃれたこむアイコン.jpg" alt="たこむのアイコン" class="desktop-only"></p>
+    <img src="images/おしゃれたこむアイコン.jpg" alt="たこむのアイコン" class="desktop-only">
     <div class="text-block">
       <h1>たこむ'sプロフィールサイト</h1>
-      <p><img src="images/おしゃれたこむアイコン.jpg" alt="たこむのアイコン" class="mobile-only"></p>
+      <img src="images/おしゃれたこむアイコン.jpg" alt="たこむのアイコン" class="mobile-only">
       <h2>About Me</h2>
-    </div>
-    <div class="text-block2">
-      <p>たこむと申します。1997年生まれ。水瓶座。<br>
+      <p class="text-block2"><挨拶><br>
+        たこむと申します。1997年生まれ。水瓶座。<br>
       現在オンラインITスクールRaiseTechにて、AWSの学習をしています。<br>
-      <現在までの遍歴>大学中退→フリーター→婚活→豊橋→東京→実家に戻る→異常行動が出たため通報され医療保護入院→退院→デイケア→自殺未遂→デイケア→就労移行支援→障害者雇用→並行してオンラインITスクール受講開始→退職→現在エンジニア転職に向けた活動を行っている。<br>
+      <現在までの遍歴><br>
+      大学中退→フリーター→婚活→豊橋→東京→実家に戻る→異常行動が出たため通報され医療保護入院→退院→デイケア→自殺未遂→デイケア→就労移行支援→障害者雇用→並行してオンラインITスクール受講開始→退職→現在エンジニア転職に向けた活動を行っている。<br>
       </p>
     </div>
   </div>

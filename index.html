@@ -28,7 +28,7 @@
 
 /* スマホ用 */
 .mobile-only {
-  display: block;
+  display: b;
   border-radius: 10px;
   width: 600px;
   height: 600px;
@@ -41,7 +41,8 @@
 /* PC用（768px以上で切り替え） */
 @media (min-width: 768px) {
   .profile-container {
-    display: flex;
+    position:relative;
+    display: Flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -59,7 +60,10 @@
   }
 
   .desktop-only {
-    display: block;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: Block;
     align-items: center;
     order: 2;
     width: 200px;

@@ -1,4 +1,4 @@
-[
+/* [
   {
     "filename": "hello",
     "title": "はじめてのブログ",
@@ -13,4 +13,4 @@
     "summary": "CloudFormationとIAMロールについて。",
     "tags": ["AWS", "Cloud"]
   }
-]
+]  */

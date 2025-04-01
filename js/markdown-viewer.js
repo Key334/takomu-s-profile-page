@@ -19,3 +19,9 @@ if (post) {
 } else {
   document.getElementById("content").innerHTML = "<p style='color:red;'>記事が指定されていません。</p>";
 }
+
+// Front Matter を除去する関数
+function stripFrontMatter(markdown) {
+  const frontMatterPattern = /^---[\s\S]*?---\s*/;
+  return markdown.replace(frontMatterPattern, '');
+}

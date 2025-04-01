@@ -22,6 +22,9 @@ if (post) {
 
 // Front Matter を除去する関数
 function stripFrontMatter(markdown) {
-  const frontMatterPattern = /^---[\s\S]*?---\s*/;
-  return markdown.replace(frontMatterPattern, '');
+  const match = markdown.match(/^---[\s\S]*?---\s*/);
+  if (match) {
+    return markdown.slice(match[0].length); // Front Matter を削除
+  }
+  return markdown;
 }

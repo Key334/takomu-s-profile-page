@@ -1,4 +1,4 @@
-/* [
+[
   {
     "filename": "hello",
     "title": "はじめてのブログ",
@@ -6,11 +6,4 @@
     "summary": "これはたこむの最初のブログ記事です。",
     "tags": ["自己紹介", "はじめて"]
   },
-  {
-    "filename": "aws-tips",
-    "title": "AWS学習メモ",
-    "date": "2025-04-02",
-    "summary": "CloudFormationとIAMロールについて。",
-    "tags": ["AWS", "Cloud"]
-  }
-]  */
+]  

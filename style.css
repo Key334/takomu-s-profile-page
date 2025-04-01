@@ -120,3 +120,32 @@ footer {
 .sns-icons a:hover {
   color: #1da1f2; /* Twitterブルーなど、変えたい色に */
 }
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.7); /* 白く透ける背景 */
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px); /* モダンな透明感 */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #0077cc;
+}

@@ -1,10 +1,21 @@
-// 表示したい記事のファイル名（クエリパラメータで切り替え可能に）
+// URLパラメータから `post` を取得（例：hello）
 const urlParams = new URLSearchParams(window.location.search);
-const post = urlParams.get("post") || "hello"; // デフォルトは hello.md
+const post = urlParams.get("post");
 
-fetch(`posts/${post}.md`)
-  .then(res => res.text())
-  .then(md => {
-    const html = marked.parse(md);
-    document.getElementById("content").innerHTML = html;
-  });
+if (post) {
+  fetch(`posts/${post}.md`)
+    .then(res => {
+      if (!res.ok) throw new Error("記事が見つかりません");
+      return res.text();
+    })
+    .then(md => {
+      const html = marked.parse(md);
+      document.getElementById("content").innerHTML = html;
+    })
+    .catch(err => {
+      document.getElementById("content").innerHTML = `<p style="color:red;">${err.message}</p>`;
+      console.error(err);
+    });
+} else {
+  document.getElementById("content").innerHTML = "<p style='color:red;'>記事が指定されていません。</p>";
+}

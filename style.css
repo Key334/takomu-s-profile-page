@@ -12,6 +12,12 @@ body {
   min-height: 100vh; /* 画面の高さに合わせる */
 }
 
+#blog-list {
+  width: 100%;
+  margin-top: 1em;
+  text-align: left;
+}
+
 .profile-container {
   flex: 1;
   text-align: center;

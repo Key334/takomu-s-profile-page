@@ -28,3 +28,5 @@ function stripFrontMatter(markdown) {
   }
   return markdown;
 }
+
+console.log("読み込んだMarkdownの内容：", md);

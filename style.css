@@ -34,14 +34,6 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  /* ふんわり影で立体感 */
 }
 
-.page-title {
-  text-align: center;
-  margin: 2em auto;
-  font-size: 2em;
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-}
-
 .text-block {
   color: #FFFFFF;
   text-shadow:

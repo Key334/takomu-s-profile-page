@@ -12,6 +12,22 @@ body {
   min-height: 100vh; /* 画面の高さに合わせる */
 }
 
+.profile-container {
+  flex: 1;
+  text-align: center;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2em;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  /* ふんわり影で立体感 */
+}
+
 #blog-list {
   width: 100%;
   margin-top: 1em;
@@ -42,7 +58,7 @@ body {
   max-width: 800px;     /* blog-containerと同じ最大幅 */
   margin: 2em auto 1em; /* 上・左右中央・下 */
   padding: 0.5em;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 6px;
   box-sizing: border-box;
 }

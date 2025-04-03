@@ -56,7 +56,8 @@ fetch('posts/index.json')
       return (
         post.title.toLowerCase().includes(keyword) ||
         post.summary.toLowerCase().includes(keyword) ||
-        post.tags.join(',').toLowerCase().includes(keyword)
+        post.tags.join(',').toLowerCase().includes(keyword) ||
+        post.date.includes(keyword) 
       );
     });
     displayPosts(filtered);

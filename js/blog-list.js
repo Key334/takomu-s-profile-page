@@ -52,16 +52,13 @@ fetch('posts/index.json')
   // 🔍 検索イベント
   document.getElementById('search-box').addEventListener('input', e => {
     const keyword = e.target.value.toLowerCase();
-  
     const filtered = allPosts.filter(post => {
-      const titleMatch = post.title.toLowerCase().includes(keyword);
-      const summaryMatch = post.summary.toLowerCase().includes(keyword);
-      const tagMatch = post.tags.join(',').toLowerCase().includes(keyword);
-      const dateMatch =
-        post.date.includes(keyword) || post.date.slice(5).includes(keyword);
-  
-      return titleMatch || summaryMatch || tagMatch || dateMatch;
+      return (
+        post.title.toLowerCase().includes(keyword) ||
+        post.summary.toLowerCase().includes(keyword) ||
+        post.tags.join(',').toLowerCase().includes(keyword) ||
+        post.date.includes(keyword) 
+      );
     });
-  
-    displayPosts(filtered);
+    displayPosts  (filtered);
   });

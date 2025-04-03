@@ -53,12 +53,6 @@ body {
   box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
 }
 
-@media (max-width: 600px) {
-  #search-box {
-    width: 90%;
-  }
-}
-
 .page-title {
   text-align: center;
   margin: 2em auto;

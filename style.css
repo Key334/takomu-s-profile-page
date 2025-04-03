@@ -57,7 +57,7 @@ body {
   width: 600px;           /* blog-containerと同じ幅 */
   max-width: 800px;     /* blog-containerと同じ最大幅 */
   margin: 2em auto 1em; /* 上・左右中央・下 */
-  padding: 0.5em;
+  padding: 1em;
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 6px;
   box-sizing: border-box;

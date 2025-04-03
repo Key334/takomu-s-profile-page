@@ -18,7 +18,8 @@ body {
   text-align: left;
 }
 
-.profile-container {
+
+.blog-container {
   flex: 1;
   text-align: center;
   width: 600px;
@@ -29,7 +30,7 @@ body {
   margin: 2em auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  /* ふんわり影で立体感 */
 }

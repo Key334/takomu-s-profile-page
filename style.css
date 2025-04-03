@@ -38,7 +38,7 @@ body {
 /* 検索バーを外に置きつつ、同じ幅で中央揃え */
 #search-box {
   display: block;
-  width: 80%;           /* blog-containerと同じ幅 */
+  width: 600px;           /* blog-containerと同じ幅 */
   max-width: 800px;     /* blog-containerと同じ最大幅 */
   margin: 2em auto 1em; /* 上・左右中央・下 */
   padding: 0.5em;

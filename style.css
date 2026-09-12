@@ -15,20 +15,18 @@ body {
 .profile-container {
   flex: 1;
   text-align: center;
-  width: 600px;
+  width: 90%;                     /* 幅をパーセント指定にしてレスポンシブ化 */
+  max-width: 900px;               /* PC時の最大幅 */
   background-color: rgba(255, 255, 255, 0.7);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 1rem 2rem;
   border-radius: 15px;
-  max-width: 900px;
   margin: 2em auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  /* ふんわり影で立体感 */
+  box-sizing: border-box;
 }
 
 #blog-list {
@@ -37,32 +35,29 @@ body {
   text-align: left;
 }
 
-
 .blog-container {
   flex: 1;
   text-align: center;
-  width: 600px;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border-radius: 15px;
+  width: 90%;                     /* 幅をパーセント指定にしてレスポンシブ化 */
   max-width: 900px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem 2rem;
+  border-radius: 15px;
   margin: 2em auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  /* ふんわり影で立体感 */
+  box-sizing: border-box;
 }
 
 /* 検索バーを外に置きつつ、同じ幅で中央揃え */
 #search-box {
   display: block;
-  width: 600px;           /* blog-containerと同じ幅 */
-  max-width: 800px;     /* blog-containerと同じ最大幅 */
-  margin: 2em auto 1em; /* 上・左右中央・下 */
+  width: 90%;
+  max-width: 900px;               /* containerと同じ最大幅に合わせる */
+  margin: 2em auto 1em;          /* 上・左右中央・下 */
   padding: 1em;
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 6px;
@@ -105,12 +100,14 @@ body {
 
 /* スマホ用 */
 .mobile-only {
-  display: b;
+  display: block;                /* 修正: display: b; -> display: block; */
   border-radius: 10px;
-  width: 600px;
-  height: 600px;
+  width: 100%;                   /* 画面に収まるように100%に変更 */
+  max-width: 600px;
+  height: auto;                  /* 縦横比を崩さないためにautoがおすすめ */
   margin: 1em auto;
 }
+
 .desktop-only {
   display: none;
 }
@@ -118,12 +115,11 @@ body {
 /* PC用（768px以上で切り替え） */
 @media (min-width: 768px) {
   .profile-container {
-    flex: 1;
-    display: Flex;
+    display: flex;               /* 修正: Flex -> flex */
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2rem; /* 間隔を少し空けると見やすくなります */
+    gap: 2rem;
   }
 
   .text-block {
@@ -137,7 +133,7 @@ body {
   }
 
   .desktop-only {
-    display: Block;
+    display: block;              /* 修正: Block -> block */
     align-items: center;
     order: 2;
     width: 200px;
@@ -177,16 +173,16 @@ footer {
 }
 
 .sns-icons a:hover {
-  color: #1da1f2; /* Twitterブルーなど、変えたい色に */
+  color: #1da1f2;
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.7); /* 白く透ける背景 */
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 1em;
   position: sticky;
   top: 0;
   z-index: 1000;
-  backdrop-filter: blur(8px); /* モダンな透明感 */
+  backdrop-filter: blur(8px);
 }
 
 .navbar-links {
